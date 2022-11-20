@@ -1,164 +1,37 @@
 namespace CIS129FinalProject;
 
+/*
+     1     2    3    4     5
+   ----------------------------
+A  | B  |mp O|    |    | O hp| 
+   ----------------------------
+B  | hp | O  | hp |  G |     | 
+   ----------------------------
+C  |  mp|  G |  O | mp |     | 
+   ----------------------------
+D  |    | G  | hp | B  |  G  |
+   ----------------------------
+E | G   |  B |    | G  |     |
+   ----------------------------
+
+B = Banshee Encounter
+O = Orc Encounter
+G = Goblin Encounter
+
+mp = Magicka Potion
+hp = Health Potion
+
+Starting Location and Dungeon Exit will be determined at random
+
+*/
+/*
 public class Map
 {
+string ZONENAME = "";
+string ZONEDESCRIPTION = "";
+bool ENCOUNTER = "";
     public void GameMap()
     {
 
     }
-
-    Cell[,] MapArray = new Cell[5, 5];
-
-    int [][] Boxes = new int[][]{
-    new int[] {
-        0,0
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        1,0
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        2,0
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        3,0
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        4,0
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        0,1
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        1,1
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        2,1
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        3,1
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        4,1
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        0,2
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        1,2
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        2,2
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        3,2
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        4,2
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        0,3
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        1,3
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        2,3
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        3,3
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        4,3
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        0,4
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        1,4
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        2,4
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        3,4
-    }, new int[] {
-        1,0,0,0,0
-    },
-
-    new int[] {
-        4,4
-    }, new int[] {
-        1,0,0,0,0
-    }
-};
-
-}
+}*/

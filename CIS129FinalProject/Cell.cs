@@ -1,4 +1,4 @@
-namespace CIS129FinalProject
+/*namespace CIS129FinalProject
 {
     public class Cell: PictureBox
     {
@@ -8,4 +8,4 @@ namespace CIS129FinalProject
         bool WestWall;
     
     }
-}
+}*/

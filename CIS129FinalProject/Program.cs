@@ -2,26 +2,38 @@
 {
     class Program
     {
-        public static Player CurrentPlayer = new Player();
-        void Main(string[] args)
+
+        public static Player currentPlayer = new Player();
+
+        static void Main(string[] args)
         {
-            while (CurrentPlayer.hp <= 0)
+            /*begin the story - introduction - while loop that
+             keeps an eye on hp and will trigger end game screen 
+             if they drop to 0 */
+            
+            currentPlayer.name = "Wizert";
+            while (currentPlayer.hp <= 0)
             {
-                NoHealth();
+                Story.StartGame();
+            }
+            //when while loop ends - sends out to end game screen
+            NoHealth();
+        }
+
+            
+
+            static void NoHealth()
+            {
+                Console.WriteLine(
+                    $"Health points have reached {currentPlayer.hp}.  The screen fades and you black out");
+                Console.WriteLine();
+
+            }
+
+            static void InvalidOperationException()
+            {
+                Console.WriteLine("Name cannot be blank.  Please Try again.");
+                currentPlayer.name = Console.ReadLine();
             }
         }
-
-        static void StartGame()
-        {
-             Console.WriteLine("Wizert 5: Retro");
-             Console.WriteLine("");
-        }
-
-        static void NoHealth()
-        {
-            Console.WriteLine($"Health points have reached {CurrentPlayer.hp}.  The screen fades and you black out");
-            Console.WriteLine();
-            
-        }
     }
-}
