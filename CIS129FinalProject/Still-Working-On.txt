@@ -1,0 +1,14 @@
+Problem Areas
+-While loop for regular game.  Currently shows current player fading to black at 100 Health instead of 0.
+-Unhandled Exception when using the random feature to set the Starting Location and Dungeon Exit.
+
+Required Things to do
+-Map functionality
+    -Move location.  After encounters, replacing encounter variable with "empty".
+
+Areas to Consider
+-Enemies may be better grouped within one class
+
+Details for after functionality
+-Environment descriptions
+
