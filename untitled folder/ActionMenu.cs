@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using static System.Environment;
 
 namespace CIS129FinalProject;
@@ -51,24 +52,47 @@ public class ActionMenu
         switch (userChoice)
         {
             case "w":
-                var qry = from outer in Map.zoneMap
-                    from inner in outer.Value
-                    select outer.Key + "->>" + inner.Key + ", " + inner.Value;
-
-
-
+                goN();
+                
                 break;
             case "s":
+                goS();
 
                 break;
             case "a":
+                goW();
 
                 break;
             case "d":
+                goE();
 
                 break;
 
         }
 
     }
+
+    public void MovePlayerTo()
+    {
+        
+    }
+    static void goN()
+    {
+        /*updateOutput.MovePlayerTo(DirectionNORTH));*/
+        //If -1 print there is a wall here.
+    }
+    static void goS()
+    {
+        
+    }
+    static void goW()
+    {
+        
+    }
+    static void goE()
+    {
+        
+    }
+    
+    
 }

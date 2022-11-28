@@ -7,4 +7,27 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="gameclasses\.DS_Store" />
+    <Content Include="gameclasses\.idea\.idea.gameclasses.dir\.idea\.gitignore" />
+    <Content Include="gameclasses\.idea\.idea.gameclasses.dir\.idea\encodings.xml" />
+    <Content Include="gameclasses\.idea\.idea.gameclasses.dir\.idea\indexLayout.xml" />
+    <Content Include="gameclasses\.idea\.idea.gameclasses.dir\.idea\projectSettingsUpdater.xml" />
+    <Content Include="gameclasses\.idea\.idea.gameclasses.dir\.idea\vcs.xml" />
+    <Content Include="gameclasses\.idea\.idea.gameclasses.dir\.idea\workspace.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="NotUsing\**" />
+    <Compile Remove="Player.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="NotUsing\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="NotUsing\**" />
+  </ItemGroup>
+
 </Project>

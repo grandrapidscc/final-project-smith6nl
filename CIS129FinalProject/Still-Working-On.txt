@@ -12,3 +12,8 @@ Areas to Consider
 Details for after functionality
 -Environment descriptions
 
+***
+Have to clear out a bunch of code that doesn't work.  This is most likely when I should be using Github,
+but for some reason it is just habit for me to comment out things in order to try a different approach.  
+This has a few times led to me having code that I am not using anymore left as a comment in my programs.
+***

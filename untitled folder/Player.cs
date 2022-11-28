@@ -3,7 +3,7 @@ using System.Runtime.Intrinsics.Arm;
 namespace CIS129FinalProject;
 
 
-public class Player
+public class Player : Thing
 {
     Private Room _location;
 }
