@@ -2,15 +2,17 @@ namespace CIS129FinalProject.gameclasses;
 
 public class MainCharacter
 {
-    private Room _location;
-    public MainCharacter( Room aRoom) 
+    public static int currentRoom = 1;
+    
+    private RoomList _map;
+    public MainCharacter() 
     {
-        _location = aRoom;
+        
     }
 
-    public Room Location
+    public RoomList Location
     {
-        get => _location;
-        set => _location = value;
+        get => currentRoom;
+        set => currentRoom = value;
     }
 }

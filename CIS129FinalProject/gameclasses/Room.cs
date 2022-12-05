@@ -2,11 +2,9 @@ namespace CIS129FinalProject.gameclasses;
 
 public class Room
 {
-    private Rm _n, _s, _w, _e; 
-        private string _locname, _locdescription;
+    private Rm _n, _s, _w, _e, _locname, _locdescription;
 
-        public Room(string locName, string locDescription,
-            Rm aN, Rm aS, Rm aW, Rm aE)
+    public Room(Rm locName, Rm locDescription, Rm aN, Rm aS, Rm aW, Rm aE)
         {
             _n = aN;
             _s = aS;
@@ -39,13 +37,13 @@ public class Room
             get => _e;
             set => _e = value;
         }
-        public string LocationName
+        public Rm LocationName
         {
             get => _locname;
             set => _locname = value;
         }
 
-        public string LocationDescription
+        public Rm LocationDescription
         {
             get => _locdescription;
             set => _locdescription = value;
@@ -56,4 +54,3 @@ public class Room
             return $"[{LocationName}] This is {LocationDescription}";
         }
     }
-}
