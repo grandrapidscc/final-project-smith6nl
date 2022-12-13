@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+namespace CIS129FinalProject;
+
+    static class Program {
+        /// The main entry point for the application.
+        static void Main() {
+
+        }
+    }
